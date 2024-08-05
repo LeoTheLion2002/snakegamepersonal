@@ -40,7 +40,7 @@ function resetGame() {
 function loop() {
   gameLoop = requestAnimationFrame(loop);
 
-  if (++count < 4) {
+  if (++count < 8) {  // Increase the limit here to slow down the snake
     return;
   }
 
